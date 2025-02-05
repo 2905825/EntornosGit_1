@@ -1,10 +1,10 @@
-public class Principal {
+n a introducirpublic class Principal {
 	public static void main(String[] args){
 		System.out.println("Hola gente, soy Antonio de primero de DAM");
         mostrarFechaHora();
         
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduce el número de usuarios: ");
+        System.out.print("Introduce el número de usuarios que se vayan a mostrar: ");
         int numeroDeUsuarios = scanner.nextInt();
         Usuario[] usuarios = crearUsuarios(numeroDeUsuarios);
         
